@@ -57,7 +57,7 @@ const Login = ({ setUserName }) => {
 
   const handleAdminLogin = async (e) => {
     e.preventDefault();
-    console.log("Admin login logic goes there");
+    console.log("Admin login logic goes there");git 
     setIsLogin(true); // Example: Set login status for admin login
   };
 
