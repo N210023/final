@@ -52,12 +52,12 @@ const Login = ({ setUserName }) => {
       }
     } catch (error) {
       alert(`Error during voter login: ${error.message}`);
-    }-
+    }
   };
 
   const handleAdminLogin = async (e) => {
     e.preventDefault();
-    console.log("Admin login logic goes there");
+    console.log("Admin login logic goes there");git 
     setIsLogin(true); // Example: Set login status for admin login
   };
 
