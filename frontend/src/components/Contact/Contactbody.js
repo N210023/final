@@ -27,7 +27,7 @@ function Contact() {
             <i className="fas fa-map-marker-alt" id="one"></i>
             <h3>Visit Us</h3>
             <p>Nuzvid</p>
-            <p>RGUKT students</p>
+            <p>IIIT NUZVID STUDENTS</p>
           </div>
           <div
             className="contact-icon-item"
