@@ -52,7 +52,7 @@ const Login = ({ setUserName }) => {
       }
     } catch (error) {
       alert(`Error during voter login: ${error.message}`);
-    }
+    }-
   };
 
   const handleAdminLogin = async (e) => {
