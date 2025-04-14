@@ -17,7 +17,7 @@ function VotingPage() {
   // Fetch students from backend
   const getStudents = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/auth/students");
+      const response = await fetch("https://final-hmhf.onrender.com/api/auth/students");
       const data = await response.json();
       setStudents(data); // Store students in state
     } catch (error) {
