@@ -47,10 +47,10 @@ function Card(props) {
   return (
     <div className="card">
       <img
-        src={`https://intranet.rguktn.ac.in/SMS/usrphotos/user/${props.id}.jpg`}
-        alt="Candidate profile picture"
-        id="img-id"
-      />
+  src={`https://intranet.rguktn.ac.in/SMS/usrphotos/user/${props.id}.jpg`}
+  alt="Candidate profile"
+  id="img-id"
+/>
       <div id="card-details">
         <p className="card-name">{props.name}</p>
         <p>
