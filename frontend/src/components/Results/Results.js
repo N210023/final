@@ -11,7 +11,7 @@ const Results = () => {
     const getCandidates = async () => {
       try {
         const response = await fetch(
-          "https://final-hmhf.onrender.com/api/vote/candidates"
+          "https://digidemos.onrender.com/api/vote/candidates"
         ); // Adjust your backend URL
         const data = await response.json();
         setCandidates(data); // Store the fetched candidates in state
