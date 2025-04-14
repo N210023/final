@@ -14,7 +14,7 @@ function Card(props) {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/vote/castvote", {
+      const response = await fetch("https://final-hmhf.onrender.com/api/vote/castvote", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
