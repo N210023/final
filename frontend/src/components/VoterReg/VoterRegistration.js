@@ -27,7 +27,7 @@ function Voter() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/api/auth/register", {
+      const response = await fetch("https://final-hmhf.onrender.com/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -65,7 +65,7 @@ function Voter() {
   const sendEmail = async (email) => {
     try {
       console.log(email);
-      const response = await fetch("http://localhost:5000/api/auth/emailver", {
+      const response = await fetch("https://final-hmhf.onrender.com/api/auth/emailver", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -96,7 +96,7 @@ function Voter() {
   const verifyEmail = async (email, otp) => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/verify-email",
+        "https://final-hmhf.onrender.com/api/auth/verify-email",
         {
           method: "POST",
           headers: {
