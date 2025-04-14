@@ -120,7 +120,7 @@ function Contact() {
               )
             }
           >
-            <img src={ev} alt="Education image 1" className="card" />
+            <img src={ev} alt="Education 1" className="card" />
             <div className="contact-card-content">
               <h3>Explore more - Online Voting</h3>
               <p>right2vote.in</p>
@@ -130,7 +130,7 @@ function Contact() {
             className="contact-card"
             onClick={() => openLink("https://eligovoting.com/universities/")}
           >
-            <img src={eligo} alt="Education image 2" className="contact-card" />
+            <img src={eligo} alt="Education 2" className="contact-card" />
             <div className="contact-card-content">
               <h3>Explore more - Online Voting</h3>
               <p>eligovoting.com</p>
@@ -144,7 +144,7 @@ function Contact() {
               )
             }
           >
-            <img src={pp} alt="Education image 3" className="contact-card" />
+            <img src={pp} alt="Education 3" className="contact-card" />
             <div className="contact-card-content">
               <h3>Explore more - Online Voting</h3>
               <p>polyas.com</p>

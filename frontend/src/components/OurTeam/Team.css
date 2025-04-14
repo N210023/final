@@ -50,10 +50,7 @@
     -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
     -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
     -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+
 }
     
   .team-image:hover {
