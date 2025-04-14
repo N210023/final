@@ -9,7 +9,7 @@ const voting = require("./routes/voteRoutes");
 dotenv.config();
 
 // MongoDB connection
-const mongoURI = process.env.MONGODB_URI;
+const mongoURI = process.env.MONGO_URI;
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
